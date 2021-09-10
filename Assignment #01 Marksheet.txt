@@ -1,4 +1,6 @@
 void main() {
+  print("------------------------------MARKSHEET------------------------------\n");
+  
   double eng_marks = 69.5;
   double urdu_marks = 61;
   double maths_marks = 60.5;
@@ -6,57 +8,63 @@ void main() {
   double chem_marks = 56;
   double total_marks = 500;
   
-  print("Your total marks course wise;\nMarks in English: $eng_marks \nMarks in Urdu: $urdu_marks \nMarks in Maths: $maths_marks \nMarks in Physics: $phy_marks \nMarks in Chemistry: $chem_marks");
+  print("YOUR TOTAL MARKS CORSE WISE\nEnglish: $eng_marks \nUrdu: $urdu_marks \nMaths: $maths_marks \nPhysics: $phy_marks \nChemistry: $chem_marks\n");
   
   if (eng_marks >= 60){
-    print("You've cleared your english exam!");
+    print("Cleared in English exam!");
   }
   else{
-    print("You are failed in english!");
+    print("Failed in English!");
   }
   
   if (urdu_marks >= 60){
-    print("You've cleared your urdu exam!");
+    print("Cleared in Urdu exam!");
   }
   else{
-    print("You are failed in urdu!");
+    print("Failed in Urdu!");
   }
   
   if (maths_marks >= 60){
-    print("You've cleared your maths exam!");
+    print("Cleared Maths exam!");
   }
   else{
-    print("You are failed in maths!");
+    print("Failed in Maths!");
   }
   
   if (phy_marks >= 60){
-    print("You've cleared your physics exam!");
+    print("Cleared Physics exam!");
   }
   else{
-    print("You are failed in physics!");
+    print("Failed in Physics!");
   }
   
   if (chem_marks >= 60){
-    print("You've cleared your chemistry exam!");
+    print("Cleared in Chemistry exam!");
   }
   else{
-    print("You are failed in chemistry!");
+    print("Failed in Chemistry!");
   }
   
   double marks_obt = eng_marks + urdu_marks + maths_marks + phy_marks + chem_marks;
   double per = marks_obt / total_marks  * 100;
-  print("Your Percentage is: $per");
+  print("\nYour Percentage is: $per");
   
   if (per >= 60 && per < 70){
-    print("You've Secured $per% with C grade and $marks_obt Total marks");
+    print("\nYou've Secured $per% with C grade and $marks_obt Total marks");
   }
-  else if (per >= 70 && per < 80){
-    print("You've Secured $per% with B grade and $marks_obt Total marks");
+  else if (per >= 70 && per < 73){
+    print("\nYou've Secured $per% with C+ grade and $marks_obt Total marks");
   }
-  else if (per >= 80){
-    print("You've Secured $per% with A+ grade and $marks_obt Total marks");
+  else if (per >= 73 && per < 79){
+    print("\nYou've Secured $per% with B grade and $marks_obt Total marks");
+  }
+  else if (per >= 79 && per < 87){
+    print("\nYou've Secured $per% with B+ grade and $marks_obt Total marks");
+  }
+  else if (per >= 87){
+    print("\nYou've Secured $per% with A grade and $marks_obt Total marks");
   }
   else{
-    print("F grade");
+    print("\nF grade");
   }
 }
