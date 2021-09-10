@@ -1,8 +1,8 @@
 void main() {
-  double eng_marks = 79.5;
-  double urdu_marks = 81;
+  double eng_marks = 69.5;
+  double urdu_marks = 61;
   double maths_marks = 60.5;
-  double phy_marks = 91;
+  double phy_marks = 71;
   double chem_marks = 56;
   double total_marks = 500;
   
