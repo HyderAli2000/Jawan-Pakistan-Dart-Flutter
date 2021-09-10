@@ -1,0 +1,62 @@
+void main() {
+  double eng_marks = 79.5;
+  double urdu_marks = 81;
+  double maths_marks = 60.5;
+  double phy_marks = 91;
+  double chem_marks = 56;
+  double total_marks = 500;
+  
+  print("Your total marks course wise;\nMarks in English: $eng_marks \nMarks in Urdu: $urdu_marks \nMarks in Maths: $maths_marks \nMarks in Physics: $phy_marks \nMarks in Chemistry: $chem_marks");
+  
+  if (eng_marks >= 60){
+    print("You've cleared your english exam!");
+  }
+  else{
+    print("You are failed in english!");
+  }
+  
+  if (urdu_marks >= 60){
+    print("You've cleared your urdu exam!");
+  }
+  else{
+    print("You are failed in urdu!");
+  }
+  
+  if (maths_marks >= 60){
+    print("You've cleared your maths exam!");
+  }
+  else{
+    print("You are failed in maths!");
+  }
+  
+  if (phy_marks >= 60){
+    print("You've cleared your physics exam!");
+  }
+  else{
+    print("You are failed in physics!");
+  }
+  
+  if (chem_marks >= 60){
+    print("You've cleared your chemistry exam!");
+  }
+  else{
+    print("You are failed in chemistry!");
+  }
+  
+  double marks_obt = eng_marks + urdu_marks + maths_marks + phy_marks + chem_marks;
+  double per = marks_obt / total_marks  * 100;
+  print("Your Percentage is: $per");
+  
+  if (per >= 60 && per < 70){
+    print("You've Secured $per% with C grade and $marks_obt Total marks");
+  }
+  else if (per >= 70 && per < 80){
+    print("You've Secured $per% with B grade and $marks_obt Total marks");
+  }
+  else if (per >= 80){
+    print("You've Secured $per% with A+ grade and $marks_obt Total marks");
+  }
+  else{
+    print("F grade");
+  }
+}
