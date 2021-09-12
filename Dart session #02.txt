@@ -34,4 +34,44 @@ void main() {
   //<dynamic> sab k liye use kryngy like; string int foat double sab
   List<dynamic> lst2 = ["hyder","123","xyz","ali","hyder","123","xyz"];
   print(lst2);
+  
+  //list k methods
+  var abc = [4,5,6,3,2,6,8,10];
+  print(abc.first);
+  
+  var abc1 = [4,5,6,3,2,6,8,10];
+  print(abc1.last);
+  
+  var abc2 = [4,5,6,3,2,6,8,10];
+  print(abc2.length);
+  
+  var abc3 = [4,5,6,3,2,6,8,10];
+  print(abc3.elementAt(0));
+  
+  //updating list through index
+  var list = [4,5,6,3,2,6,8,10];
+  
+  list[2] = 436;
+  
+  print(list);
+  
+  
+  //updating list through builtIn method
+  var list1 = [4,5,6,3,2,6,8,10];
+  
+  //index ko replace krny k liye
+  list1[2] = 436;
+  
+  //replace krky add krta hai
+  //index 1 se index 2 k integers replace krky 4,5,20 add krdyga
+  list1.replaceRange(1,2,[4,5,20]);
+  print(list1);
+  
+  
+  //last index mai add krwany k liye
+  var list2 = [4,5,6,3,2,6,8,10];
+  
+  list2.replaceRange(list2.length-1,list2.length,[239,123,432,534,675]);
+  print(list2);
+  
 }
