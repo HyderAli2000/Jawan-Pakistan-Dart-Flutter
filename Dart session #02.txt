@@ -74,4 +74,14 @@ void main() {
   list2.replaceRange(list2.length-1,list2.length,[239,123,432,534,675]);
   print(list2);
   
+  
+  //practice
+  var items = [2,4,6,8,10,0];
+  items.replaceRange(items.length-1,items.length,[1,3,5,7,9]);
+  print(items);
+  
+  items[5] = 500;
+  print(items);
+  
+  
 }
