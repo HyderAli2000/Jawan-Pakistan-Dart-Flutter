@@ -1,7 +1,22 @@
 Assignment #02
 
 
-QUESTION #05
+
+QUESTION #03:
+
+var ticketFare=600;
+  var nTickets=5;
+  print("Total price is ${ticketFare*nTickets}");
+
+
+QUESTION #04:
+
+  var list1=[1,2,3,4,5,6,7] ;
+  var list2=[3,5,6,7,9,10];
+  print(list1.where((e)=>!list2.contains(e)).toList());
+
+
+QUESTION #05:
 
 "??" is a simple version of if-else statement. If the condition is true than expersion1 is executed else expersion2 is executed.
 And "?" for if expersion1 is non-null returns its value else returns expression2 value.
@@ -23,6 +38,8 @@ int a = 5;
     d = n ? ? "n has Null value";
     print(d);
 
+
+QUESTION #06:
 
 "NUMBERS" Numbers in Dart are used to represent numeric literals
 
@@ -80,3 +97,75 @@ map size
    var data1 = {'name': 'Hyder Ali','occupation': 'Web developer', 'age': '21'};
    print(data1.length);
 
+QUESTION #07:
+
+  var array1 = List.generate(10,(index)=>(index+1)*7);
+  var array2 = List.generate(10,(index)=>(index+1));
+  
+  var table = Map.fromIterables(array2, array1);
+  for(int i=0;i<10;i++){
+    print("7 x ${i+1} = ${table[i+1]}");
+
+QUESTION #08:
+
+  var password = "hyder123";
+  var inputPassword = "";
+  
+  if (inputPassword == null || inputPassword == "")
+  {
+    print("Please enter your password");
+  }
+  else if(inputPassword == password)
+  {
+    print("Correct! The password you entered matches the original password");
+  }
+  else
+  {
+    print("Incorrect password");
+  }
+
+
+QUESTION #09:
+
+ var studentsName = ["Hyder","Ali","Hasan"];
+  var storedScore = [90,85,89];
+  studentsName.forEach((name)=>print("${name} secured ${storedScore[studentsName.indexOf(name)]} marks out of 500 and got ${(storedScore[studentsName.indexOf(name)]/500)*100} %"));
+
+
+
+QUESTION #10:
+
+"LEGAL VARIABLES"
+  int abc = 53;
+  num ab_c = 122;
+  double $map = 53.2;
+  String def1 = "hyder";
+  bool bol1 = true;
+  
+"ILLEGAL VARIABLES"  
+  int 1abc = 5;
+  String -def = "hyder";
+  double Map = 53.0;
+  bool &bol = False;
+  num ab-c = 12;
+
+
+QUESTION #11:
+
+  var w1 = "Hyderabad";
+  print(w1);
+  w1 = w1.replaceAll("Hyder", "Islam");
+  print(w1);
+
+
+QUESTION #12:
+
+  var now = DateTime.now();
+  if (now.day<16)
+  {
+    print("First fifteen days of the month");
+  }
+  else
+  {
+    print("Last days of the month");
+  }
