@@ -1,6 +1,29 @@
 Assignment #02
 
 
+QUESTION #01:
+
++	Use to add two operands
+–	Use to subtract two operands
+-expr	It is Use to reverse the sign of the expression
+*	Use to multiply two operands
+/	Use to divide two operands
+~/	Use two divide two operands but give output in integer
+%	Use to give remainder of two operands
+
+
+
+
+QUESTION #02:
+
+a.	var a = 2, b = 1; 				a=2,b=1
+b.	var result = --a - --b + ++b + b--; 		result=3
+Explain the output at each stage:  
+c.	--a; 				  a=1 (pre-decrement)
+d.	--a - --b; 			  a=1 - b=0 => 1	(pre-Idecrement with subtraction)
+e.	--a - --b + ++b; 		  a=1 - b=0 => 1 + b=1 => 2(pre-decrement with addition)
+f.	--a - --b + ++b + b--;	  	  a=1 - b=0 => 1 + b=1 => 2 + b=1 => 3 (post-decrement with addition)
+
 
 QUESTION #03:
 
