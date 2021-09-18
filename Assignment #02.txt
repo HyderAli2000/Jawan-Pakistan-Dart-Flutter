@@ -3,6 +3,7 @@ Assignment #02
 
 QUESTION #01:
 
+"ARITHMETIC OPERATORS"
 +	Use to add two operands
 –	Use to subtract two operands
 -expr	It is Use to reverse the sign of the expression
@@ -10,6 +11,43 @@ QUESTION #01:
 /	Use to divide two operands
 ~/	Use two divide two operands but give output in integer
 %	Use to give remainder of two operands
+
+"RELATIONAL OPERATORS"
+>	Check which operand is bigger and give result as boolean expression.
+<	Check which operand is smaller and give result as boolean expression.
+>=	Check which operand is greater or equal to each other and give result as boolean expression.
+<=	Check which operand is less than or equal to each other and give result as boolean expression.
+==	Check whether the operand are equal to each other or not and give result as boolean expression.
+!=	Check whether the operand are not equal to each other or not and give result as boolean expression.
+
+"TYPE TEST OPERATORS"
+is	Gives boolean value true as output if the object has specific type
+is!	Gives boolean value false as output if the object has specific type
+
+
+"BITWISE OPERATORS"
+&	Performs bitwise and operation on two operands.
+|	Performs bitwise or operation on two operands.
+^	Performs bitwise XOR operation on two operands.
+~	Performs bitwise NOT operation on two operands.
+<<	Shifts a in binary representation to b bits to left and inserting 0 from right.
+>>	Shifts a in binary representation to b bits to left and inserting 0 from left.
+
+
+"ASSIGNMENT OPERATORS"
+=	Use to assign values to the expression or variable
+??=	Assign the value only if it is null.
+
+
+"LOGICAL OPERATORS"
+
+
+
+"CONDITIONAL OPERATORS"
+
+
+
+"CASCADE NOTATION OPERATORS"
 
 
 
