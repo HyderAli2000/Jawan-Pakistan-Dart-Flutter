@@ -1,1 +1,82 @@
 Assignment #02
+
+
+QUESTION #05
+
+"??" is a simple version of if-else statement. If the condition is true than expersion1 is executed else expersion2 is executed.
+And "?" for if expersion1 is non-null returns its value else returns expression2 value.
+
+int a = 5;
+    int b = 7;
+ 
+    // Conditional Statement
+    var c = (a < 10) ? "Statement is Correct" : "Statement is Wrong";
+    print(c);
+ 
+    // Conditional statement
+    int n;
+    var d = n ? ? "n has Null value";
+    print(d);
+ 
+    // After assigning value to n
+    n = 10;
+    d = n ? ? "n has Null value";
+    print(d);
+
+
+"NUMBERS" Numbers in Dart are used to represent numeric literals
+
+
+void main() {
+   int n1 = 2;             
+   double n2 = 1.5; 
+   var res = n1+n2;
+  print(res);
+}
+
+
+"Strings" Strings represent a sequence of characters
+
+
+void main() {
+    String fname = 'Hyder'; 
+    String lname = 'Ali';   
+    print (fname + lname);
+}
+
+"BOOLEANS" It represents Boolean values true and false
+
+
+void main() {
+  String fname = 'Hyder'; 
+  String lname = 'Ali';   
+  bool res = (fname==lname);
+  print (res);  
+}
+
+"LIST" It is an ordered group of objects
+
+  var abc = [4,5,6,3,2,6,8,10];
+  print(abc.first);
+  
+  var abc1 = [4,5,6,3,2,6,8,10];
+  print(abc1.last);
+  
+  var abc2 = [4,5,6,3,2,6,8,10];
+  print(abc2.length);
+  
+  var abc3 = [4,5,6,3,2,6,8,10];
+  print(abc3.elementAt(0));
+
+"MAPS" It represents a set of values as key-value pairs
+
+   var data = {'name': 'Hyder Ali','occupation': 'Web developer', 'age': '21'};
+   print(data);
+   print(data.keys);
+   print(data.values);
+  
+  
+map size
+   var data1 = {'name': 'Hyder Ali','occupation': 'Web developer', 'age': '21'};
+   print(data1.length);
+
