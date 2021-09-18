@@ -40,15 +40,22 @@ is!	Gives boolean value false as output if the object has specific type
 
 
 "LOGICAL OPERATORS"
-
+&&	Use to add two conditions and if both are true than it will return true.
+||	Use to add two conditions and if even one of them is true than it will return true.
+!	It is use to reverse the result.
 
 
 "CONDITIONAL OPERATORS"
+condition ?     It is a simple version of if-else statement. If the condition is true than expersion1 is executed else expersion2 is executed.
+expersion1 : 
+expersion2	
 
+expersion1 ??   If expersion1 is non-null returns its value else returns expression2 value.
+expersion2	
 
 
 "CASCADE NOTATION OPERATORS"
-
+..	It is used to perform multiple methods on the same object.
 
 
 
