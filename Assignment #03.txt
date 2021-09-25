@@ -129,3 +129,23 @@ QUESTION #09:
 
 
 QUESTION #10:
+
+
+void main() {
+  
+  List<dynamic> letters = ["a", "e", "i", "o", "u", "d", "r", "t"];
+  List<dynamic> vowels = ["a", "e", "i", "o", "u"];
+  print(letters);
+  for (var i = 0; i <= letters.length; i++)
+  {
+    if (vowels[i] == letters[i])
+    {
+      print("${letters[i]} is vowels");
+    }
+    else
+    {
+      print("${letters[i]} is not vowels");
+    }
+  }
+}
+
