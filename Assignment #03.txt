@@ -111,7 +111,15 @@ void main() {
 
 QUESTION #08:
 
-
+void main() {
+  
+    double tempC = 32;
+    double tempF = 98;
+    double cels = (tempF - 32) * .5556;
+    double ferhn = (tempC * 1.8) + 32;
+    print("$cels degree celsius");
+    print("$ferhn degree Fahrenheit");
+}
 
 
 QUESTION #09:
