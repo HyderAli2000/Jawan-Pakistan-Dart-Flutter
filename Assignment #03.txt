@@ -70,6 +70,22 @@ QUESTION #06:
 
 QUESTION #07:
 
+void main() {
+  
+  int numm = 5;
+  for (int i = 1; i <= 100; i++)
+  {
+    if (i % numm == 0)
+    {
+      print("$i is multiples of 5");
+    }
+    else
+    {
+      
+    }
+  }
+}
+
 
 
 
