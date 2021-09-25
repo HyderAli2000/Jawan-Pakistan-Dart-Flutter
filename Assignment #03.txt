@@ -25,10 +25,40 @@ QUESTION #03:
 
 QUESTION #04:
 
+void main() {
+  
+    double a = 15;
+    double b = a/2;
+    double flag = 0;
+    for (double i = 2; i <= b; i++)
+    {
+      if(a % i == 0)
+      {
+        print("Number is not prime");
+        flag = 1;
+        break;
+      }
+    }
+  if(flag == 0)
+  {
+    print("Number is prime");
+  }
+  
+}
 
 
 
 QUESTION #05:
+
+void main() {
+  
+  int num = 7;
+  for (int i = 1; i <= 15; i++)
+  {
+    int res = num * i;
+    print("$num * $i = $res");
+  }
+}
 
 
 
