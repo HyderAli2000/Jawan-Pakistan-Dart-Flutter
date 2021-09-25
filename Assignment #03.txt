@@ -2,7 +2,10 @@ Assignment #03
 
 QUESTION #01:
 
-
+List<String> ballList = ["bilal","ali","owais","bilal","owais"];
+  ballList = List.of(ballList.toSet());
+ 
+  print(ballList);
 
 
 QUESTION #02:
@@ -124,28 +127,61 @@ void main() {
 
 QUESTION #09:
 
+import 'dart:io';
 
+void main() {
+  print("Enter 1st number: ");
+  var num1 = int.parse(stdin.readLineSync());
+
+  print("Enter 2nd number: ");
+  var num2 = int.parse(stdin.readLineSync());
+  
+  print("Enter desired operation for calculation: ");
+  var oper = stdin.readLineSync();
+  
+  var result;
+  if (oper == "+")
+  {
+     result = num1 + num2;
+  }
+  else if (oper == "-")
+  {
+     result = num1 - num2;
+  }
+  else if (oper == "*")
+  {
+     result = num1 * num2;
+  }
+  else if (oper == "/")
+  {
+     result = num1 / num2;
+  }
+  else{
+     print("Invalid Number!");
+  }
+  print("The Answer is ${result}");
+}
 
 
 
 QUESTION #10:
 
 
-void main() {
-  
-  List<dynamic> letters = ["a", "e", "i", "o", "u", "d", "r", "t"];
-  List<dynamic> vowels = ["a", "e", "i", "o", "u"];
-  print(letters);
-  for (var i = 0; i <= letters.length; i++)
-  {
-    if (vowels[i] == letters[i])
-    {
-      print("${letters[i]} is vowels");
-    }
-    else
-    {
-      print("${letters[i]} is not vowels");
-    }
+import 'dart:io';
+
+void main() 
+{
+  print("Enter one character: ");
+  int charac = stdin.readByteSync();
+
+  if (charac==97|| charac==101|| charac==105|| charac==111|| charac==117){
+     print("vowel");
   }
+  else if (charac==97-32|| charac==101-32|| charac==105-32|| charac==111-32|| charac==117-32){
+     print("vowel");
+  }
+  else{
+     print("Not vowel");
+  }	
 }
 
