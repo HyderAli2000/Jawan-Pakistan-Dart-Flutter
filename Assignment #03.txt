@@ -1,1 +1,57 @@
 Assignment #03
+
+QUESTION #01:
+
+
+
+
+QUESTION #02:
+
+void main() {
+  
+    var list1 = [1, 2, 3, 4, 5, 6, 7];
+    var list2 = [3, 5, 6, 7, 9, 10];
+    list1.removeWhere((e) => list2.contains(e));
+    print(list1);
+  
+}
+
+
+QUESTION #03:
+
+
+
+
+
+QUESTION #04:
+
+
+
+
+QUESTION #05:
+
+
+
+
+QUESTION #06:
+
+
+
+
+QUESTION #07:
+
+
+
+
+QUESTION #08:
+
+
+
+
+QUESTION #09:
+
+
+
+
+
+QUESTION #10:
