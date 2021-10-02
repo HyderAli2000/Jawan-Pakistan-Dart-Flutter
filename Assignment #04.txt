@@ -132,7 +132,7 @@ class Developer{
   //constructor
   Developer({required this.name, required this.age, required this.education});
   
-  //method
+  //methodd
   void hello(){
     print("Name: $name\nAge: $age\nEducation: $education");
   }
