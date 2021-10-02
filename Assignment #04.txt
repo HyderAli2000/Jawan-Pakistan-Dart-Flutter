@@ -111,3 +111,58 @@ class ClassB extends ClassA {
 }
 
 
+
+
+Question #07:
+
+void main() {
+  
+  Developer me = Developer(name: "Hyder", age: 21, education: "Intermediate");
+  me.hello();
+  
+}
+
+
+class Developer{
+  //properties definition
+  int age;
+  String name;
+  String education;
+  
+  //constructor
+  Developer({required this.name, required this.age, required this.education});
+  
+  //method
+  void hello(){
+    print("Name: $name\nAge: $age\nEducation: $education");
+  }
+  
+}
+
+
+
+Question #08:
+
+//same as question 6
+void main() {
+  
+  ClassB p = new ClassB();
+  p.fname();
+  p.lname();
+}
+
+
+class ClassA {
+  // parent class function
+  void fname() {
+    print("Hi this is Hyder Ali");
+  }
+}
+
+
+class ClassB extends ClassA {
+  //child class function
+  void lname() {
+    print("Flutter Dev");
+  }
+}
