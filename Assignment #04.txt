@@ -1,0 +1,113 @@
+ASSIGNMENT #04
+
+
+Question #02:
+
+void main() {
+  
+  number(5);
+  
+}
+
+void number(num n1) {
+  for (int i = 1; i <= 10; i++) 
+  {
+    print("$n1 x $i = ${n1 * i}");
+  }
+}
+
+
+Question #03:
+
+
+void main() {
+  
+  number(5);
+  
+}
+
+void number(num n2) {
+  List<double> lst = [2, 4, 6, 8, 9];
+  print("Given List: $lst");
+  for (int i = 0; i < lst.length; i++) 
+  {
+    lst[i] = lst[i] / n2;
+  }
+  print("List After division: $lst");
+}
+
+
+Question #04:
+
+void main() {
+  
+  marksheet(["Hyder", "Haris", "Faaiz", "Ali", "Bilal"], [80, 90, 85, 76, 78]);
+  
+}
+
+void marksheet(List<String> names, List<num> marks) {
+  
+  for (int i = 0; i < names.length; i++) 
+  {
+    print("Student Name: ${names[i]}\nStudent Marks: ${marks[i]}");
+    if (marks[i] < 60) {
+      print("Grade: F\n");
+    } else if (marks[i] >= 90 && marks[i] <= 100) {
+      print("Grade: A\n");
+    } else if (marks[i] >= 80) {
+      print("Grade: B\n");
+    } else if (marks[i] >= 70) {
+      print("Grade: C\n");
+    } else if (marks[i] >= 60) {
+      print("Grade: D\n");
+    } else {
+      print("Invalid number");
+    }
+  }
+}
+
+
+Question #05:
+
+void main() {
+  //function calling
+  Q5 q5 = Q5();
+  q5.lastName("Ali");
+  
+}
+//class
+class Q5{
+  var alpha1="Hyder";
+  //function
+  void lastName(String lname){
+    print("$alpha1 $lname");
+  }
+}
+
+
+Question #06:
+
+void main() {
+  
+  ClassB p = new ClassB();
+  p.fname();
+  p.lname();
+}
+
+
+class ClassA {
+  // parent class function
+  void fname() {
+    print("Hi this is Hyder Ali");
+  }
+}
+
+
+class ClassB extends ClassA {
+  //child class function
+  void lname() {
+    print("Flutter Dev");
+  }
+}
+
+
